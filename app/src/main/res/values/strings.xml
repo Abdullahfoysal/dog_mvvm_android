@@ -3,6 +3,7 @@
     <string name="selected_item">Selected Item</string>
 
     <string-array name="BreedType">
+        <item>pomeranian</item>
         <item>african</item>
         <item>mountain</item>
         <item>newfoundland</item>
