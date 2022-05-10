@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">dogMvvm</string>
+    <string name="selected_item">Selected Item</string>
+
+    <string-array name="BreedType">
+        <item>african</item>
+        <item>mountain</item>
+        <item>newfoundland</item>
+        <item>otterhound</item>
+        <item>hound</item>
+
+        <item>borzoi</item>
+        <item>akita</item>
+        <item>appenzeller</item>
+        <item>shepherd australian</item>
+        <item>basenji</item>
+        <item>beagle</item>
+        <item>bluetick</item>
+        <item>mountain</item>
+        <item>newfoundland</item>
+        <item>otterhound</item>
+        <item>hound</item>
+
+        <item>borzoi</item>
+        <item>akita</item>
+        <item>appenzeller</item>
+        <item>shepherd australian</item>
+    </string-array>
 </resources>

@@ -8,10 +8,14 @@ class DogViewModel (private val repository: DogRepository):ViewModel() {
 
      fun getDogs() =repository.getDogs()
      //suspend fun fetchDogs()=repository.fetchDog()
-      fun fetchDogs() {
-               viewModelScope.launch {
-                    repository.fetchDog()
-               }
-     }
+      fun fetchDogs() = viewModelScope.launch {
+        repository.fetchAll()
+
+      }
+      fun fetchByBreed(breedType:String) = viewModelScope.launch {
+        repository.fetchByBreed(breedType)
+
+      }
+
 
 }

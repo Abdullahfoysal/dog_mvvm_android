@@ -14,6 +14,7 @@ class DogRepository private constructor( private  var dao: DogDao) {
             }
     }
 
-    suspend fun  fetchDog()= dao.fetchDog()
+    suspend fun  fetchAll()= dao.fetchAll()
+    suspend fun  fetchByBreed(breedType:String)= dao.fetchByBreed(breedType)
     fun getDogs()= dao.getDogs()
 }
